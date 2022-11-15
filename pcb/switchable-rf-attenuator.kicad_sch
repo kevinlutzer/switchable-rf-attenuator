@@ -996,6 +996,7 @@
     )
   )
 
+
   (junction (at 202.565 140.462) (diameter 0) (color 0 0 0 0)
     (uuid 00cb32da-ee4c-4e48-9047-53e0091d36a7)
   )
@@ -1705,7 +1706,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 99.314 133.985 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4e53cca6-8de7-45d2-93a3-52bc7a0091e1)
-    (property "Reference" "FB?" (id 0) (at 99.2759 127 90))
+    (property "Reference" "FB1" (id 0) (at 99.2759 127 90))
     (property "Value" "FerriteBead_Small" (id 1) (at 99.2759 129.54 90))
     (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 99.314 135.763 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2110,7 +2111,7 @@
   (symbol (lib_id "Device:C") (at 103.251 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b95ccc36-bd6e-4624-9628-3cc7faa4d6c3)
-    (property "Reference" "C?" (id 0) (at 106.68 136.5249 0)
+    (property "Reference" "C7" (id 0) (at 106.68 136.5249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 106.68 139.0649 0)
@@ -2282,7 +2283,7 @@
   (symbol (lib_id "power:GND") (at 103.251 143.002 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eedde049-ed44-4c5e-837b-9065af28a6f6)
-    (property "Reference" "#PWR?" (id 0) (at 103.251 149.352 0)
+    (property "Reference" "#PWR0117" (id 0) (at 103.251 149.352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 103.251 148.59 0))
@@ -2385,7 +2386,7 @@
       (reference "#PWR0116") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/eedde049-ed44-4c5e-837b-9065af28a6f6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
     (path "/0f0002d8-f051-4915-b9d0-55866a37abce"
       (reference "C1") (unit 1) (value "NC") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2406,7 +2407,7 @@
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b95ccc36-bd6e-4624-9628-3cc7faa4d6c3"
-      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/a9264ea1-c27c-45dc-99bc-45e827b8b425"
       (reference "D1") (unit 1) (value "LXES15AAA1-100") (footprint "Diode_SMD:D_0402_1005Metric")
@@ -2418,7 +2419,7 @@
       (reference "D3") (unit 1) (value "ESD110B102ELE6327XTMA1") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/4e53cca6-8de7-45d2-93a3-52bc7a0091e1"
-      (reference "FB?") (unit 1) (value "FerriteBead_Small") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB1") (unit 1) (value "FerriteBead_Small") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/ec842cc0-ee82-4195-b926-1b7209911110"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
